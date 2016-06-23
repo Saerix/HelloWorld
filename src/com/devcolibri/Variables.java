@@ -6,7 +6,7 @@ public class Variables {
     static int d = 99;
     static long f = 333;
     static float g = 3.14f;
-    static double v = 2.6;
+    static double v = 2.5;
     static boolean bo = true;
     static boolean bof = false;
     public static void main (String[] args){
