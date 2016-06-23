@@ -10,7 +10,7 @@ public class Variables {
     static boolean bo = true;
     static boolean bof = false;
     static final int CONST = 55;
-    static String st = "Hi Dev";
+    static String st = "Hi Dev!";
     static char k ='d';
     public static void main (String[] args){
      int d = (int) v;
