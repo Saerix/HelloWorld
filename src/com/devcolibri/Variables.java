@@ -29,5 +29,6 @@ public class Variables {
         System.out.println(CONST);*/
         System.out.println(d);
         System.out.println(f);
+        System.out.println();
     }
 }
