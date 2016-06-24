@@ -1,4 +1,4 @@
-package com.devcolibri;
+package com.devcolibri.HelloWorld;
 
 public class Met_and_fun {
     public static void main (String[] args){

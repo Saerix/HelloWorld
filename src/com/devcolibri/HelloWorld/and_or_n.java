@@ -1,4 +1,4 @@
-package com.devcolibri;
+package com.devcolibri.HelloWorld;
 
 public class and_or_n {
     public static void main(String[] args){

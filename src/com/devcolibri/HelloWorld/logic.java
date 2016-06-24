@@ -1,4 +1,4 @@
-package com.devcolibri;
+package com.devcolibri.HelloWorld;
 public class logic {
     static boolean bool = true;
     static int a = 6;

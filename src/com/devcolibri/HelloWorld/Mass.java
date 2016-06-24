@@ -1,4 +1,4 @@
-package com.devcolibri;
+package com.devcolibri.HelloWorld;
 
 public class Mass {
 
@@ -16,11 +16,11 @@ public class Mass {
     nums[7] = 10;
     nums[8] = 3;
     nums[9] = 8;
+        for(int i=0;i<nums.length;i++)
+            System.out.println(i+": " + nums[i]);
         beans[0] = "Hello ";
         beans[1] = "My ";
         beans[2] = "Dear! ";
-        for(int i=0;i<nums.length;i++)
-            System.out.println(i+": " + nums[i]);
         for(int i=0;i<beans.length;i++)
             System.out.print(beans[i]);
     }
