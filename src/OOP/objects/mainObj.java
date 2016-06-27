@@ -7,16 +7,16 @@ public class mainObj {
 
 public static void main(String[] args){
 
-cat.name = "Джон"; // Присваиваем коту и человеку свойства
-    cat.poroda = "Сиамский";
-    cat.age = 3;
-    people.name = "Stas";
-    people.lastName = "Morhun";
-    people.age = 26;
-    people.cat = cat; // Присваиваем объекту человек, объект кот
+    cat.setName("Джон"); // Присваиваем коту и человеку свойства
+    cat.setPoroda("Сиамский");
+    cat.setAge(3);
+    people.setAge(3);
+    people.setLastName("Morhun");
+    people.setName("Stas");
+    people.setCat(cat); // Присваиваем объекту человек, объект кот
 
     System.out.println(people);
-    cat.say(); // обращаемся к объекту cat и вызываем его метод say
+    people.getCat().say(); // обращаемся к объекту cat и вызываем его метод say
 
 }
 }

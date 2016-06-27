@@ -2,10 +2,35 @@ package OOP.objects;
 
 
 public class Cat {
-    int age;  // Свойства объекта
-     String poroda;
-     String name;
-void say() { // Метод ( То, что умеет делать объект )
+     private int age;  // Свойства объекта
+     private String poroda;
+     private String name;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getPoroda() {
+        return poroda;
+    }
+
+    public void setPoroda(String poroda) {
+        this.poroda = poroda;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void say() { // Метод ( То, что умеет делать объект )
 
     System.out.println("Мяу!");
 
