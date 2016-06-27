@@ -2,34 +2,42 @@ package OOP.objects;
 
 public class People {
 
-    static String name;
-    static String lastName;
-    static int age;
-
+    private String name;
+    private String lastName;
+    private int age;
     private Cat cat;
 
-    public static String getName() {
+
+
+    public People(String name,String lastName,int age ,Cat cat) {  //Сам конструктор
+        this.name = name;
+        this.lastName = lastName;
+        this.age = age;
+        this.cat = cat;
+    }
+
+    public String getName() {
         return name;
     }
 
-    public static void setName(String name) {
-        People.name = name;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public static String getLastName() {
+    public String getLastName() {
         return lastName;
     }
 
-    public static void setLastName(String lastName) {
-        People.lastName = lastName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public static int getAge() {
+    public int getAge() {
         return age;
     }
 
-    public static void setAge(int age) {
-        People.age = age;
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public Cat getCat() {
