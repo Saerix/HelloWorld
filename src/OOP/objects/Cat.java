@@ -37,12 +37,12 @@ public class Cat extends Animals {
     }
 
     @Override
-    void eat() {
+    public void eat() {
         System.out.println("Omnonom");
     }
 
     @Override
-    void sleep() {
+    public void sleep() {
         System.out.println("Z-z-z-z-z-z");
 
     }
